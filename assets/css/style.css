@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.timer-menu{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: distribute;
+    justify-content: space-around;
+background: #878282;
+padding: 12px;
+font-size: 24px;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
+.timer-menu a{
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+  background: #b3b3b3;
+  margin: 4px;
+  font-size: 15px;
+}
+.main-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+}
+input{
+  width: 129px;
+  height: 26px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid red;
+  text-align: center;
+  margin: 7px;
+  background-color: #ffffff00;
+}
+::-webkit-input-placeholder {
+  color: rgb(192, 71, 71);
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: rgb(192, 71, 71);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: rgb(192, 71, 71);
+  opacity: 1;
+}
+::-ms-input-placeholder {
+  color: rgb(192, 71, 71);
+  opacity: 1;
+}
+::placeholder {
+  color: rgb(192, 71, 71);
+  opacity: 1;
+}  
+input-placeholder { 
+  color: rgb(192, 71, 71);
+}
+input-placeholder {
+  color: rgb(192, 71, 71);
+}
+input, select, textarea{
+    color: #ff0000;
+    font-size: 15px;
+}
+.box{
+  text-align: center;
+  margin: 12px;
+}
+button{
+background: rgb(199, 102, 102);
+  border: none;
+  padding: 9px;
+  font-size: 16px;
+  color: white;    
+}
+button:hover{
+background: rgb(148, 49, 49);
+  cursor: pointer;
+}
+ul li{
+display: inline;
+}
+.box_style{
+  font-size: 171px;
+}
+.background-color {
+  position: fixed;
+  top: 83%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}  
+.black{
+      display: block;
+      text-align: center;
+      padding: 12px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      font-size: 15px;
+      background-color: #383636;
+      text-decoration: none;
+      color: white;         
+}
+.blue{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  background-color: #1c26af;
+  text-decoration: none;
+  color: white;         
+}
+.green{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  background-color: #1f9114;
+  text-decoration: none;
+  color: white;         
+}
+.orange{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  background-color: #bea724;
+  text-decoration: none;
+  color: white;         
+}
+.background-color a:hover {
+  background-color: rgb(196, 69, 69);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 105px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+          box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  padding: 12px 16px;
+  z-index: 1;
+  text-align: center;
+  padding: 7px;
+}  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.music-btn{
+  width: 173px;
+  padding: 8px;
+  margin: 8px;
+}
+.music-btn:focus {
+  background-color: rgb(194, 24, 24);
+}
+.cancel-music{
+  color: white;
+  background-color: #f53a3a;
+  padding: 4px;
+  font-size: 17px;
+}
+.cancel-music:hover{
+  background-color: #d32727;
+  cursor:pointer;
+}
+@media only screen and (max-width: 600px) {
+  .box_style{
+    font-size: 78px;
+}  
+}

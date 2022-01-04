@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="my project">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Makho kukhianidze">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Stopwatch</title>
+    <link rel="icon" href="../icons/m.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="timer-menu">
+        <div>
+            <div class="dropdown">
+                <button>Music</button>
+                <div class="dropdown-content">
+                    <button class="music-btn" id="musicOne">sport music 1</button>
+                    <button class="music-btn" id="musicTwo">sport music 2</button>
+                    <button class="music-btn" id="musicThree">sport music 3</button>
+                    <button class="music-btn" id="musicFour">sport music 4</button>
+                    <span class="cancel-music" id="stopMuisc">cancel music</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="../../index.html">Timer</a>
+            <a href="#" style="background-color: rgb(150, 148, 148);">Stopwatch</a>
+        </div>
+        <div>
+            <button onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="box_style" id="stopwatch">
+            <p>00:00:00  <p style="font-size: 20px;">Hours : Minutes : Seconds</p>
+            </p>
+        </div>
+        <div class="box">
+            <button onclick="startstopwatch()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="restart()">restart</button>
+        </div>
+        <div class="background-color">
+            <a href="#" class="black" id="black">Black</a>
+            <a href="#" class="blue" id="blue">Blue</a>
+            <a href="#" class="green" id="green">Green</a>
+            <a href="#" class="orange" id="orange">Orange</a>
+        </div>
+    </div>
+    <script src="../js/stopwatch.js"></script>
+</body>
+
+</html>
